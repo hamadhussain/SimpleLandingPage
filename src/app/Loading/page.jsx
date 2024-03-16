@@ -1,5 +1,6 @@
+'use client'
 import React from 'react'
-import { Rings,Triangle} from 'react-loader-spinner'
+import { Triangle} from 'react-loader-spinner'
 ;
 const page = () => {
   return (
