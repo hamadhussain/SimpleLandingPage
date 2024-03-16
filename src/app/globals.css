@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+  /* background: linear-gradient(#e66465, #9198e5);
+  background-size: cover;
+  background-repeat: no-repeat; */
+  /* background-color: cadetblue; */
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(7, 0, 132) 0%, rgb(13, 13, 177) 35%, rgba(0,212,255,1) 100%);
+/* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+span{
+  font-size: 50px;
+}
+p{
+  font-family: monospace;
+}
+
+
+.custom-shape-divider-bottom-1710515241 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1710515241 svg {
+  position: relative;
+  display: block;
+  width: calc(155% + 1.3px);
+  height: 210px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1710515241 .shape-fill {
+  fill: #FFFFFF;
+}
+.custom-shape-divider-bottom-1710515241 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: -1; /* Push the shape behind the content */
+}
+.custom-shape-divider-bottom-1681647578 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1681647578 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1681647578 .shape-fill {
+  fill: #FFFFFF;
+}
+
+
+
+
+
+
+
+.custom-shape-divider-top-1710572038 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1710572038 svg {
+  position: relative;
+  display: block;
+  width: calc(146% + 1.3px);
+  height: 133px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1710572038 .shape-fill {
+  fill: #2fb3cd;
+}
+.cursor {
+  background-color: #111;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
